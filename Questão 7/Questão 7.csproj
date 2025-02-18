@@ -7,7 +7,7 @@
     <ProjectGuid>{10BA7B8F-79BB-4CB2-931D-0894646953FA}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Questão_7</RootNamespace>
-    <AssemblyName>Questão_7</AssemblyName>
+    <AssemblyName>Questão 7</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Estacionamento.cs" />
+    <Compile Include="Teste.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

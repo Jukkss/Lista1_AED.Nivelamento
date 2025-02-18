@@ -13,12 +13,12 @@ namespace Questão_6
         static void Main(string[] args)
         {
             Biblioteca biblioteca = new Biblioteca();
-            biblioteca.AdicionarLivro("Cem Anos de Solidão", "Gabriel García Márquez", "Editora XYZ");
-            biblioteca.AdicionarLivro("Dom Casmurro", "Machado de Assis", "Editora ABC");
-            biblioteca.AdicionarLivro("1984", "George Orwell", "Editora 123");
-            biblioteca.AdicionarLivro("O Pequeno Príncipe", "Antoine de Saint-Exupéry", "Editora 456");
+            biblioteca.AdicionarLivro("Livro1", "Autor1", "Editora1");
+            biblioteca.AdicionarLivro("Livro2", "Autor2", "Editora2");
+            biblioteca.AdicionarLivro("Livro3", "Autor3", "Editora3");
+            biblioteca.AdicionarLivro("Livro4", "Autor4", "Editora4");
 
-            string tituloBusca = "1984";
+            string tituloBusca = "Livro2";
             Livro livroEncontrado = biblioteca.BuscarLivroPorTitulo(tituloBusca);
             if (livroEncontrado != null)
             {
