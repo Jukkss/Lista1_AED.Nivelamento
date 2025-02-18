@@ -12,12 +12,10 @@ namespace Questão_5
     {
         static void Main(string[] args)
         {
-            Time time = new Time("Time Exemplo");
+            Time time = new Time("Time");
             Jogador jogador1 = new Jogador(10, "Jogador1", "Atacante");
             Jogador jogador2 = new Jogador(2, "Jogador2", "Goleiro");
             Jogador jogador3 = new Jogador(5, "Jogador3", "Zagueiro");
-
-
             time.AdicionarTitular(jogador1);
             time.AdicionarReserva(jogador2);
             time.AdicionarReserva(jogador3);
